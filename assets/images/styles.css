@@ -30,5 +30,41 @@ section {
 }
 
 .banner .banner-content {
-  color
+  color: white;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  font-weight:900;
+  text-transform: uppercase;
+  color: trasnparent;
+  background: -webkit-linear-gradient(#33A8DB, #1472B7);
+  background-clip:text;
+  -webkit-background-clip: text;
+}
+
+.banner .logo {
+  background-color: rgba(0, 0, 0, .2);
+  height: 260px;
+  width: 260px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.banner .banner-content button {
+  color: #31A8DD;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 16px 32px;
+  texte-transform: uppercase;
+  letter_spacing: 4px;
+  background-color: transparent;
+  border-image: linear-gradient(#3BA1CD, #1572B7);
+  border-image-slice: 10;
+  border-radius: 30px  
 }
